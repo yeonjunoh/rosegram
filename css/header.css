@@ -10,7 +10,7 @@
     width: 960px;
     display: flex;
     justify-content: space-between;
-    margin: 15px 0;
+    margin: 20px 0;
     align-items: center;
 
 }
@@ -21,8 +21,10 @@
 
 .header__wrapper .header__icon-list{
     display: flex;
-    font-size: 30px;
-    justify-content: space-between;
+    font-size: 20px;
+}
 
-
+.header__icon-list .header__icon{
+    margin-left: 30px;
+    color: rgba(0, 0, 0, 0.7);
 }
