@@ -6,67 +6,112 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Profile : Rosegram</title>
+    <title>Explore | Rosegram</title>
 </head>
 
-        <body>
+<body>
 
-            <header>
-    <!--This is the header-->
-
-            <a href="feed.html"><img src="images/logo.png"></a>
-            <input type="search" placeholder="search" />
-            <ul>
-                <li>
-                    <a href="explore.html">
-                            <i class="fa fa-compass" aria-hidden="true"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                            <i class="fa fa-heart-o" aria-hidden="true"></i>
-                    </a>
-                </li>
-                <li><a href="profile.html"> 
+    <header class="header">
+        <a href="feed.html" class="header__link">
+            <img src="images/logo.png" class="header__logo" />
+        </a>
+        <input type="search" placeholder="Search" class="header__input" />
+        <ul class="header__icon-list">
+            <li class="header__icon">
+                <a href="explore.html" class="header__icon-link">
+                    <i class="fa fa-compass" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li class="header__icon">
+                <a href="#" class="header__icon-link">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li class="header__icon">
+                <a href="profile.html" class="header__icon-link">
                     <i class="fa fa-user-o" aria-hidden="true"></i>
                 </a>
             </li>
-            </ul>
-            </header>
+        </ul>
+    </header>
 
-        
-         <!-- This are the COLUMNS -->
-      <main>
-      Explore
-        </main>
-          
-          <!--Footer-->
-          <footer class="footer">
-                <nav class="footer__navigation">
-                    <ul class="footer__list">
-                        <li class="footer__list-item">
-                            <a href="https://www.instagram.com/about/us/" class="footer__link">about us</a>
-                           </li>
-                        <li class="footer__list-item"><a href="https://help.instagram.com/" "footer__link">support</a>
-                       </li>
-                        <li class="footer__list-item"><a href="http://blog.instagram.com/" "footer__link">blog</a
-                           ></li>
-                        <li class="footer__list-item"><a href="https://instagram-press.com/" "footer__link">press</a>
-                       </li>
-                        <li class="footer__list-item"><a href="https://www.instagram.com/developer/" "footer__link">api</a>
-                       </li>
-                        <li class="footer__list-item"><a href="https://www.instagram.com/about/jobs/" "footer__link">jobs</a>
-                       </li>
-                        <li class="footer__list-item"><a href="https://www.instagram.com/legal/privacy/" "footer__link">privacy</a>
-                       </li>
-                        <li class="footer__list-item"><a href="https://www.instagram.com/legal/terms/" "footer__link">terms</a>
-                       </li>
-                        <li class="footer__list-item"><a href="https://www.instagram.com/explore/locations/" "footer__link">directory</a>
-                       </li>
-                    </ul>
-                </nav>
-               <span class="footer__span">©2018 Rosegram</span>
-            </footer>
-       </body>
+    <!-- This are the COLUMNS -->
+
+    <main class="main__explore">
+        <span>suggested</span>
+        <ul class="main__explore">
+            <li class="main__lists">
+                <img src="images/kendall" class="main__kendall-image">
+                <span class="main__kendall-id">Kendall Jenner</span>
+                <span class="main__kendall-name">Kendall</span>
+                <div class="main__kendall-save">
+                    <form action="#" method="get" class="main__follow">
+                        <input type="text" class="main__followbutton" type="submit" value="follow">
+                    </form>
+                </div>
+
+            </li>
+
+            <li class="main__lists"></li>
+            <li class="main__lists"></li>
+            <li class="main__lists"></li>
+            <li class="main__lists"></li>
+            <li class="main__lists"></li>
+            <li class="main__lists"></li>
+            <li class="main__lists"></li>
+            <li class="main__lists"></li>
+            <li class="main__lists"></li>
+
+
+        </ul>
+
+
+    </main>
+
+
+
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <nav class="footer__navigation">
+            <ul class="footer__list">
+                <li class="footer__list-item">
+                    <a href="#" class="footer__link">About us</a>
+                </li>
+                <li class="footer__list-item">
+                    <a href="#" class="footer__link">Support</a>
+                </li>
+                <li class="footer__list-item">
+                    <a href="#" class="footer__link">Blog</a>
+                </li>
+                <li class="footer__list-item">
+                    <a href="#" class="footer__link">Press</a>
+                </li>
+                <li class="footer__list-item">
+                    <a href="#" class="footer__link">API</a>
+                </li>
+                <li class="footer__list-item">
+                    <a href="#" class="footer__link">Jobs</a>
+                </li>
+                <li class="footer__list-item">
+                    <a href="#" class="footer__link">Privacy</a>
+                </li>
+                <li class="footer__list-item">
+                    <a href="#" class="footer__link">Terms</a>
+                </li>
+                <li class="footer__list-item">
+                    <a href="#" class="footer__link">Directory</a>
+                </li>
+                <li class="footer__list-item">
+                    <a href="#" class="footer__link">Language</a>
+                </li>
+            </ul>
+        </nav>
+        <span class="footer__copyright">© 2018 Rosegram</span>
+    </footer>
+
+</body>
 
 </html>
