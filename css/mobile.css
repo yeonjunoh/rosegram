@@ -1,0 +1,21 @@
+@media screen and (min-width: 300px) and (max-width: 736px) {
+    .login {
+        margin-top: 0;
+    }
+
+    .login .login__column:first-child{
+        display: none;
+    }
+
+    .login .login__column {
+        width: 100%;
+    }
+
+    .login__column .login__white-box {
+        background-color: transparent;
+    }
+
+
+
+
+}
